@@ -9,11 +9,16 @@
 
 #!/usr/bin/env python
 
-a = 1
-b = 2
+varA = 11
+varB = 11
 
-if insinstance (a,str) or insinstance (b,str): 
-	print("Cadena involucrada")
-if insinstance (a,str) > insinstance (b,str):
-	print ("Grande")
-if insinstance (a, str) 
+if type (varA) == int and type (varB) == int:
+	if varA < varB:
+		print ("Mas pequeño")
+	elif varA == varB:
+		print ("Igual")
+	else:
+		print ("Grande")
+
+if type (varA) == str or type (varB) == str:
+	print ("Cadena involucrada")

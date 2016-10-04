@@ -11,10 +11,11 @@
 # 	'''
 	# Your code here
 
-a='F'
-def isVowel2 (char):
-	if char.lower() in 'aeiou':
-	print ('Vocal')
-	return True
-else
-	return False
+char = input ()
+def isVowel(char):
+	if char in "aeiouAEIOU":
+		return True
+	else: 
+		return False
+
+print (isVowel(char))
