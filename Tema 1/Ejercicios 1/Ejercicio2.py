@@ -5,7 +5,7 @@
 #No utilice la palabra clave “in”. Su función debe tomar en una sola cadena y devolver un
 #valor lógico.
 #def isVowel(char):
- #	'''
+ #	''' 
  #	char: a single letter of any case
  #	returns: True if char is a vowel and False otherwise.
  #	'''
