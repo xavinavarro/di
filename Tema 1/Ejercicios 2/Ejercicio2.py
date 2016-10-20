@@ -1,17 +1,14 @@
 #!/usr/bin/env python
 
-def gcd (a,b):
-	if(a>b):
-		i=b
-	elif (a<b):
-		i=a
-	else:
-		return(a)
-	while i>0:
-		if a%i==0 and b%i==0
-	return(i)
-	else:
-		
-	elif a%b == 0:
-	print(b)
-		else b=b 1
+def gcdIter(a, b):
+	resto = 0
+	while (b > 0):
+		resto = b
+		b = a % b
+		a = resto 
+	return a
+
+a = int(input("Primer valor: "))
+b = int(input("Segundo valor: "))
+
+print ("Maximo comun divisor entre ", a, " y ", b, " es : ", gcdIter(a, b))

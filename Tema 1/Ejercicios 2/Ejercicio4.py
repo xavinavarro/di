@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 
 
-hamburger=0
-water=0
-salad=0
+def item_order (cadena): 
+	#QUANTITY OF EACH ITEM
+	ensalada = cadena.count("ensalada") 
+	hamburguesa = cadena.count("hamburguesa")
+	agua = cadena.count("agua")
+	#PRINT CHAIN 
+	print("Ensalada: ", ensalada, "Hamburguesa: ", hamburguesa, "Agua: ", agua)
 
-order=input ('El pedido es: \n')
+pedido = input("Pedido realizado: ") 
 
-s = 'hamburger: '+str(order.count('hamburger'))'\n'+'water: '+str(order.count('water'))'\n'+'salad: '+str(order.count('salad'))
-print(s)
+item_order(pedido)
