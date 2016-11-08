@@ -14,7 +14,7 @@ else:
         palabra = input()
         lista += [palabra]
 
-   print("La lista creada es:", lista)
+    print("La lista creada es:", lista)
 
     for i in range(len(lista)-1, -1, -1):
         if lista[i] in lista[:i]:

@@ -3,7 +3,6 @@
 
 #!/usr/bin/env python
 
-
 numero = int(input("Dime cuantas palabras tiene la lista: "))
 
 if numero < 1:
