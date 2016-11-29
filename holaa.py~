@@ -87,7 +87,7 @@ class MainWin:
  # Para terminar iniciamos el programa
 			if __name__ == "__main__":
  # Iniciamos la clase.
-				MainWin()
+			MainWin()
  # Además iniciamos el método gtk.main, que genera un ciclo que se utiliza
  # para recibir todas las señales emitidas por los botones y demás widgets.
 			gtk.main()
