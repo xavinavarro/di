@@ -1,15 +1,20 @@
-<?php
-echo "<table border=1>";
-$n=1;
-for ($n1=1; $n1<=10; $n1++)
-{
-echo "<tr>";
-for ($n2=1; $n2<=10; $n2++)
-{
-echo "<td>", $n, "</td>";
-$n=$n+1;
-}
-echo "</tr>";
-}
-echo "</table>";
-?>
+<html>
+	<head meta charset=utf-8 />
+	<body>
+		<table border=1 >
+			<?php
+				$fila = 1; 
+				$numero = 1;
+				while ($fila <= 10){ 
+					print "<tr>";
+					for ($j = 1; $j <= 10; $j++){
+						print "<td>" . $numero . "</td>";
+						$numero++;
+					}
+					print "</tr>";
+					$fila++;
+				}
+			?>
+		</table>
+	</body>
+</html>
