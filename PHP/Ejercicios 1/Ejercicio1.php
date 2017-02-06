@@ -1,6 +1,6 @@
 <?php
-	$ini = "Hola ";
-	$fin = " hola piter amigo mio";
+	$ini = "Hola";
+	$fin = "Hola soy Xavi";
 	$todo = $ini.$fin;
 	echo $todo;
 ?>
